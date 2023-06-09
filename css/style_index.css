@@ -1,0 +1,36 @@
+.index-body {
+    background-color: #7ba6c3;
+    padding: 80px;
+}
+
+.p-line {
+    margin: 0; 
+    padding: 0;
+}
+
+.font-color-index {
+    color: rgb(230, 224, 220);
+}
+
+.index-title {
+    color:rgb(54, 64, 68);
+    font-size: 40px;
+}
+
+.menu {
+    justify-content: center; 
+    text-align:center; 
+    vertical-align:middle;
+}
+
+.paginas {
+    font-size: 20px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}

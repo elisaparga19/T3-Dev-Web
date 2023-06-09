@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{0}</title>
+    <link rel="stylesheet" type="text/css" href="https://anakena.dcc.uchile.cl/~cc500210/cgi-bin/tarea-3/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="background-body color-body">
+    <section class="jumbotron text-center background-header">
+        <div class="container">
+          <h1 class="jumbotron-heading style-heading">{1}</h1>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row h-100 justify-content-center align-items-center">
+            {2}
+                <div class="form-row">
+                    <div class="col-auto form-group">
+                        <label for="pais-origen">País de origen:</label>
+                        <select class="form-control" id="pais-origen" name="pais-origen">
+                        <option>Elija un país...</option>
+                        {3}
+                        </select>     
+                    </div>
+                    <div class="col-auto form-group">
+                        <label for="ciudad-origen">Ciudad de origen</label>
+                        <select class="form-control" id="ciudad-origen" name="ciudad-origen">
+                        <option>Elija una ciudad...</option>
+                        {4}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-auto form-group">
+                        <label for="pais-destino">País de destino</label>
+                        <select class="form-control" id="pais-destino" name="pais-destino">
+                        <option>Elija un país...</option>
+                        {5}
+                        </select>
+                    </div>
+                    <div class="col-auto form-group">
+                        <label for="ciudad-destino">Ciudad de destino</label>
+                        <select class="form-control" id="ciudad-destino" name="ciudad-destino">
+                        <option>Elija una ciudad...</option>
+                        {6}
+                        </select>
+                    </div>
+                </div>
+                {7}
+                <div class="form-row">
+                    <div class="col-auto form-group">
+                        <label for="espacio-disponible">Espacio disponible</label>
+                        <select class="form-control" id="espacio-disponible" name="espacio-disponible">
+                            <option>Seleccione espacio</option>
+                            {8}
+                        </select>
+                    </div>
+                    <div class="col-auto form-group">
+                        <label for="kilos-disponibles">Kilos disponible</label>
+                        <select class="form-control" id="kilos-disponibles" name="kilos-disponibles">
+                            <option>Seleccione peso</option>
+                            {9}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-auto form-group">
+                        <label for="email">Email</label>
+                        {10}
+                    </div>
+                    <div class="col-auto form-group">
+                        <label for="celular">Número de Celular</label>
+                        {11}
+                    </div>
+                </div>
+                {12}
+                <div class="info">
+                    <div id="cajaErrores" class="error">
+                    {13}
+                </div>
+                </div>
+                <button type="submit" class="btn mb-4 btn-submit">Enviar</button>
+            </form>
+        </div>
+        
+
+    </div>
+    <script src="https://anakena.dcc.uchile.cl/~cc500210/cgi-bin/tarea-3/js/JSTools.js"></script>
+</body>
